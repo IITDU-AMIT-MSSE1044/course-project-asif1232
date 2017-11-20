@@ -1,4 +1,3 @@
-
 Real-world execution traces record performance problems that are likely perceived at deployment sites. However, those problems can be rooted subtly and deeply into system layers or other components far from the place where delays are initially observed. To tackle challenges of identifying deeply rooted problems, we propose a new trace-based approach consisting of two steps: impact analysis and causality analysis. The impact analysis measures performance impacts on a component basis, and the causality analysis discovers patterns of runtime behaviors that are likely to cause the measured impacts. The discovered patterns can help performance analysts quickly identify root causes of perceived performance problems. We instantiate our approach to study the performance of device drivers on over 19,500 real-world execution traces. The impact analysis shows that device drivers constitute a non-trivial part (≈ 38%) in the overall system performance, and a big part (≈ 26%) is due to interactions between drivers. The causality analysis effectively discovers highly suspicious and high-impact behavioral patterns in device drivers, examined and confirmed by our automated evaluation, developers, and performance analysts.
 
 Description 
@@ -44,4 +43,8 @@ browse browser browse mail
 
 //destination 
 send mail
+
+Reference
+Xiao Yu, Shi Han, Dongmei Zhang, and Tao Xie. 2014. Comprehending performance from real-world execution traces: a device-driver case. In Proceedings of the 19th international conference on Architectural support for programming languages and operating systems (ASPLOS '14). ACM, New York, NY, USA, 193-206. DOI: http://dx.doi.org/10.1145/2541940.2541968
+
 
