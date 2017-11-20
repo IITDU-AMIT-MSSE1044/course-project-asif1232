@@ -1,0 +1,24 @@
+//number of task
+6
+switch on
+data connection on
+browse browser
+browse mail
+browse facebook
+send mail
+//number of dependency
+7
+//dependency: first one is dependent on second one.
+data connection on switch on
+browse browser switch on
+browse mail browse browser
+send mail browse mail
+browse facebook browse browser
+browse facebook data connection on
+browse mail data connection on
+//number of similarity and they are (For each node):
+1
+browse browser browse mail
+
+//destination 
+send mail
